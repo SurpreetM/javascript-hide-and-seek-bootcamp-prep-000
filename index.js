@@ -12,7 +12,7 @@ function nestedTarget() {
    for (i=0, l=rankedList.length; i<l; i++) {
      let children = rankedList[i].children
      for (j=0, c = children.length; j<c; j++) {
-       children[j]
+       children[j].innerHTML = 
      }
    
  }
