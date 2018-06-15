@@ -21,7 +21,7 @@ function nestedTarget() {
    let nextNode = node.children[0]
    
    while (nextNode) {
-     
+     node = nextNode
    }
    
  }
