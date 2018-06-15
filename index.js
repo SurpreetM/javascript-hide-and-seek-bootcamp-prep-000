@@ -2,7 +2,7 @@ function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-nestedTarget(){
+function nestedTarget() {
    return document.querySelector(`#id.target`)
 }
  
