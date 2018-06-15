@@ -24,5 +24,5 @@ function nestedTarget() {
      node = nextNode
      nextNode = node.children[0]
    }
-   
+  return node 
  }
