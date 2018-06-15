@@ -23,7 +23,8 @@ function nestedTarget() {
    while (nextNode) {
      node = nextNode
      nextNode = node.children[0]
-     if (node = null)
+     if (node = null){
+     return node}
    }
   return node 
  }
