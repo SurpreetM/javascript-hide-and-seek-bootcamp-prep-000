@@ -2,4 +2,6 @@ function getFirstSelector(selector) {
   return document.querySelector(selector)
 }
 
-nestedTarget()
+nestedTarget() {
+  return document.querySelector(#id.target)
+}
